@@ -16,7 +16,7 @@
     "timeMonth": 640,
     "timeYear": 640,
     "dailyMinutesDown": {
-      "2025-03-20": 87,
+      "2025-03-20": 1353,
       "2025-03-19": 1440,
       "2025-03-18": 1440,
       "2025-03-17": 1440,
@@ -30,7 +30,7 @@
     "url": "coding-area.net",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minecraft-server",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -41,6 +41,8 @@
     "timeWeek": 121,
     "timeMonth": 121,
     "timeYear": 121,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-03-20": 0
+    }
   }
 ]
