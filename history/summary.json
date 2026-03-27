@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/coding-area.net.ico",
     "slug": "homepage",
     "status": "down",
-    "uptime": "94.20%",
+    "uptime": "94.21%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "97.17%",
+    "uptimeYear": "97.45%",
     "time": 717,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 733,
+    "timeYear": 730,
     "dailyMinutesDown": {
       "2025-04-05": 620,
       "2025-04-04": 1440,
@@ -24,8 +24,7 @@
       "2025-03-31": 1440,
       "2025-03-30": 1440,
       "2025-03-29": 1440,
-      "2025-03-28": 1440,
-      "2025-03-27": 1440
+      "2025-03-28": 1440
     }
   },
   {
@@ -34,18 +33,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minecraft-server",
     "status": "down",
-    "uptime": "19.33%",
+    "uptime": "19.28%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "7.96%",
-    "uptimeYear": "16.94%",
+    "uptimeYear": "16.67%",
     "time": 122,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 124,
     "dailyMinutesDown": {
-      "2026-03-26": 155,
+      "2026-03-27": 157,
+      "2026-03-26": 1440,
       "2026-03-25": 1440,
       "2026-03-24": 1440,
       "2026-03-23": 1440,
@@ -351,8 +351,7 @@
       "2025-04-29": 1440,
       "2025-04-28": 557,
       "2025-04-22": 24,
-      "2025-03-28": 519,
-      "2025-03-27": 166
+      "2025-03-28": 519
     }
   }
 ]
