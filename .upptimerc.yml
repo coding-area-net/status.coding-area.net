@@ -1,0 +1,29 @@
+# Change these first
+owner: coding-area-net # Your GitHub organization or username, where this repository lives
+repo: status.coding-area.net # The name of this repository
+
+sites:
+  - name: Homepage
+    url: https://coding-area.net
+  - name: Minecraft Server
+    url: coding-area.net
+    port: 25565
+    check: "tcp-ping"
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  cname: status.coding-area.net
+  # baseUrl: /your-repo-name
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Coding-Area.net Status
+  introTitle: "Coding-Area.net Status Webseite"
+  introMessage: Aktueller Status des Coding-Area.net Netzwerks
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
