@@ -11,19 +11,66 @@ sites:
     check: "tcp-ping"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.coding-area.net
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://coding-area.net/logo.png
   name: Coding-Area.net Status
   introTitle: "Coding-Area.net Status Webseite"
   introMessage: Aktueller Status des Coding-Area.net Netzwerks
+  theme: dark
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  css: |
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap');
+    :root {
+      --body-background-color: #06070D;
+      --body-text-color: #F4F6FB;
+      --card-background-color: #0B0E1A;
+      --nav-background-color: #0B0E1A;
+      --nav-border-bottom-color: #262E47;
+      --nav-current-border-bottom-color: #2BC4FB;
+      --card-border-color: #262E47;
+      --down-border-left-color: #EF4444;
+      --down-background-color: rgba(239, 68, 68, 0.08);
+      --degraded-border-left-color: #F5B445;
+      --up-border-left-color: #22C55E;
+      --tag-color: #06070D;
+      --tag-up-background-color: #22C55E;
+      --tag-down-background-color: #EF4444;
+      --tag-degraded-background-color: #F5B445;
+      --change-background-color: rgba(245, 180, 69, 0.15);
+      --error-button-border-color: #2D7EF7;
+      --error-button-background-color: #2D7EF7;
+      --error-button-color: #ffffff;
+      --submit-button-border-color: #2D7EF7;
+      --submit-button-background-color: #2D7EF7;
+      --submit-button-color: #ffffff;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    article {
+      border-radius: 12px !important;
+      box-shadow: 0 6px 18px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.05);
+    }
+    .tag {
+      border-radius: 999px;
+      font-weight: 500;
+    }
+    nav a {
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+      font-weight: 500;
+    }
+    [aria-current] {
+      color: #2BC4FB;
+    }
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
