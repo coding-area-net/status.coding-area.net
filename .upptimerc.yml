@@ -8,7 +8,7 @@ sites:
   - name: Minecraft Server
     url: coding-area.net
     port: 25565
-    check: "tcp-ping"
+    check: "minecraft"
 
 status-website:
   cname: status.coding-area.net
