@@ -4,20 +4,21 @@
     "url": "https://coding-area.net",
     "icon": "https://icons.duckduckgo.com/ip3/coding-area.net.ico",
     "slug": "homepage",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.74%",
+    "uptimeMonth": "99.73%",
     "uptimeYear": "99.90%",
-    "time": 1664,
-    "timeDay": 935,
-    "timeWeek": 1094,
-    "timeMonth": 2374,
-    "timeYear": 1664,
+    "time": 1649,
+    "timeDay": 561,
+    "timeWeek": 981,
+    "timeMonth": 2310,
+    "timeYear": 1649,
     "dailyMinutesDown": {
       "2026-07-08": 6,
-      "2026-07-16": 116
+      "2026-07-16": 116,
+      "2026-08-12": 0
     }
   },
   {
@@ -25,17 +26,17 @@
     "url": "coding-area.net",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minecraft-server",
-    "status": "up",
-    "uptime": "64.77%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "65.02%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.74%",
-    "uptimeYear": "64.77%",
-    "time": 1617,
-    "timeDay": 658,
-    "timeWeek": 962,
-    "timeMonth": 2143,
-    "timeYear": 1617,
+    "uptimeYear": "65.02%",
+    "time": 1593,
+    "timeDay": 424,
+    "timeWeek": 866,
+    "timeMonth": 2086,
+    "timeYear": 1593,
     "dailyMinutesDown": {
       "2026-06-18": 1307,
       "2026-06-17": 1440,
@@ -68,7 +69,8 @@
       "2026-05-21": 1440,
       "2026-05-20": 627,
       "2026-07-08": 5,
-      "2026-07-16": 114
+      "2026-07-16": 114,
+      "2026-08-12": 0
     }
   }
 ]
